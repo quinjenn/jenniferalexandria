@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className="nav-heading">
       <p>jenniferalexandria</p>
-      <p>full stack developer</p>
+      <p>FULL STACK DEVELOPER</p>
     </div>
   );
 };
