@@ -1,10 +1,10 @@
 import React from 'react';
-import "./Nav.css";
+import './Nav2.css';
 
 const Nav2 = () => {
   return (
-    <div className="nav-links">
-      <ul className='nav-titles'>
+    <div className="nav-links-container">
+      <ul className="nav-titles">
         <li>ABOUT</li>
         <li>PROJECTS</li>
         <li>RESUME</li>
@@ -15,5 +15,4 @@ const Nav2 = () => {
 };
 
 export default Nav2;
-
 

@@ -1,4 +1,6 @@
 import React from 'react';
+import "./Projects.css";
+
 
 const project = [
   {
@@ -39,9 +41,9 @@ const project = [
 
 const Projects = () => {
   return (
-    <div>
+    <div className='projects-container'>
+      <h3>Projects</h3>
       <div className='project-icons'>
-        <h3>Projects</h3>
         {project.map(icon => (
           <div key={icon.id}>
             <a href={icon.href}>

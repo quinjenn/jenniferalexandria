@@ -1,0 +1,9 @@
+.project-icons {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects-container {
+  text-align: center;
+}
