@@ -50,7 +50,7 @@ const Contact = () => {
               href={icon.href}
             >
               <img
-                src={icon.src} height={50}
+                src={icon.src} height={50} alt='icons'
               />
             </a>
           ))}

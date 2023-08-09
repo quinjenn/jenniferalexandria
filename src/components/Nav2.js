@@ -31,16 +31,7 @@ const Nav2 = () => {
           </Link>
         </li>
         <li>
-          <Link
-            activeClass="active"
-            to="resume"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            RESUME
-          </Link>
+          <a className="resume-link" href="/Jennifer_Quintal_Developer_Resume_.pdf" target="_blank" download>RESUME</a>
         </li>
         <li>
           <Link
@@ -55,7 +46,7 @@ const Nav2 = () => {
           </Link>
         </li>
       </ul>
-    </div>
+    </div >
   );
 };
 
