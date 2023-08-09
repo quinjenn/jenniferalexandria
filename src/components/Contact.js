@@ -40,7 +40,7 @@ const icons = [
 
 const Contact = () => {
   return (
-    <div>
+    <div className='contact-container'>
       <h3>jenniferalexandria</h3>
       <div className='contact-icons'>
         {icons.map(icon => (

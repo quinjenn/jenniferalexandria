@@ -49,19 +49,22 @@ const Projects = () => {
             <a href={icon.href}>
               <img
                 src={icon.src}
-                height={icon.id === 3 ? 800 : 300}
-                width={icon.id === 3 ? 500 : 300}
+                height={icon.id === 3 ? 900 : 400}
+                width={icon.id === 3 ? 600 : 400}
                 alt={icon.alt}
               />
             </a>
-            <p>{icon.alt}</p>
-            <p>{icon.text}</p>
+            <div className='icon-text'>
+              <p className='icon-title'>{icon.alt}</p>
+              <p className='icon-para'>{icon.text}</p>
+            </div>
           </div>
         ))}
       </div>
     </div>
   );
 };
+
 
 export default Projects;
 
