@@ -37,3 +37,34 @@
     transform: rotate(360deg);
   }
 }
+
+.title-component {
+  position: relative;
+  padding: 10px 0;
+  width: 80%;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title-component::before,
+.title-component::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border: 1px solid #ccc;
+}
+
+.title-component::before {
+  top: 0;
+  border-bottom: none;
+}
+
+.title-component::after {
+  bottom: 0;
+  border-top: none;
+}

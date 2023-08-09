@@ -43,7 +43,9 @@ const Projects = () => {
   return (
     <div id="projects">
       <div className='projects-container'>
-        <h3>Projects</h3>
+        <div className="title-container">
+          <p className='title-component'>Projects</p>
+        </div>
         <div className='project-icons'>
           {project.map(icon => (
             <div key={icon.id}>

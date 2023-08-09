@@ -4,12 +4,13 @@ import "./Nav.css";
 const Nav = () => {
   return (
     <div className="nav-heading">
-      <div className='brand-1'><p>jenniferalexandria</p></div>
-      <div className='brand-2'><p>FULL STACK DEVELOPER</p></div>
+      <p className='brand-1'>jenniferalexandria</p>
+      <p className='brand-2'>FULL STACK DEVELOPER</p>
     </div>
   );
 };
 
 export default Nav;
+
 
 

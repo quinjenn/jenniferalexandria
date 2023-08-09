@@ -4,7 +4,9 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <div className='skills-container'>
-      <h3>Skills</h3>
+      <div className="title-container">
+        <p className='title-component'>Skills</p>
+      </div>
       <p align="center">
         <img alt="Axios" src="https://img.shields.io/badge/-Axios-5A29E4?logo=axios&logoColor=white&style=for-the-badge" />
         <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />

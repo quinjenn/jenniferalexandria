@@ -5,7 +5,9 @@ const About = () => {
   return (
     <div id="about">
       <div className='about-page'>
-        <h3>About Me</h3>
+        <div className="title-container">
+          <p className='title-component'>About Me</p>
+        </div>
         <img src='/images/JQ1.png'
           alt="jalexandria"
           width="36%"
