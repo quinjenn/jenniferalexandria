@@ -40,21 +40,23 @@ const icons = [
 
 const Contact = () => {
   return (
-    <div className='contact-container'>
-      <h3>jenniferalexandria</h3>
-      <div className='contact-icons'>
-        {icons.map(icon => (
-          <a
-            key={icon.id}
-            href={icon.href}
-          >
-            <img
-              src={icon.src} height={50}
-            />
-          </a>
-        ))}
+    <div id="contact">
+      <div className='contact-container'>
+        <h3>jenniferalexandria</h3>
+        <div className='contact-icons'>
+          {icons.map(icon => (
+            <a
+              key={icon.id}
+              href={icon.href}
+            >
+              <img
+                src={icon.src} height={50}
+              />
+            </a>
+          ))}
+        </div>
+        <p>© copyright 2023 jenniferalexandria</p>
       </div>
-      <p>© copyright 2023 jenniferalexandria</p>
     </div>
   );
 };

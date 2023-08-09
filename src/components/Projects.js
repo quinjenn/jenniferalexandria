@@ -41,25 +41,27 @@ const project = [
 
 const Projects = () => {
   return (
-    <div className='projects-container'>
-      <h3>Projects</h3>
-      <div className='project-icons'>
-        {project.map(icon => (
-          <div key={icon.id}>
-            <a href={icon.href}>
-              <img
-                src={icon.src}
-                height={icon.id === 3 ? 900 : 400}
-                width={icon.id === 3 ? 600 : 400}
-                alt={icon.alt}
-              />
-            </a>
-            <div className='icon-text'>
-              <p className='icon-title'>{icon.alt}</p>
-              <p className='icon-para'>{icon.text}</p>
+    <div id="projects">
+      <div className='projects-container'>
+        <h3>Projects</h3>
+        <div className='project-icons'>
+          {project.map(icon => (
+            <div key={icon.id}>
+              <a href={icon.href}>
+                <img
+                  src={icon.src}
+                  height={icon.id === 3 ? 900 : 400}
+                  width={icon.id === 3 ? 600 : 400}
+                  alt={icon.alt}
+                />
+              </a>
+              <div className='icon-text'>
+                <p className='icon-title'>{icon.alt}</p>
+                <p className='icon-para'>{icon.text}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
