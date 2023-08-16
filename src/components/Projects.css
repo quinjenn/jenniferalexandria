@@ -1,51 +1,67 @@
+#projects {
+  display: flex;
+  justify-content: center;
+}
+
 .projects-container {
   text-align: center;
 }
 
-.project-icons {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1px;
+.title-container {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.project-icons > div {
-  text-align: center;
+.title-component {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.project-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vertical-project {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 20px 5px 5px 5px;
+}
+
+.large-project {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.project-icons > div:nth-child(1),
-.project-icons > div:nth-child(2),
-.project-icons > div:nth-child(4),
-.project-icons > div:nth-child(5) {
-  grid-row: span 1;
-  grid-column: span 1;
-}
-
-.project-icons > div:nth-child(3) {
-  grid-row: span 4;
-  grid-column: span 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 20px;
 }
 
 .icon-text {
-  width: 300px;
   text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .icon-title {
+  font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 .icon-para {
   font-size: 14px;
-}
-
-.project-image {
-  max-width: 100%;
-  max-height: 100%;
 }

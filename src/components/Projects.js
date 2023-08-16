@@ -2,7 +2,7 @@ import React from 'react';
 import "./Projects.css";
 
 
-const project = [
+const projectData = [
   {
     id: 1,
     src: '/projects/jnmaps-1.png',
@@ -39,7 +39,12 @@ const project = [
     text: 'React based application to book interview appointments between students and mentors',
   }];
 
+
 const Projects = () => {
+  const firstDivProjects = projectData.filter(icon => icon.id === 1 || icon.id === 2);
+  const secondDivProjects = projectData.filter(icon => icon.id === 3);
+  const thirdDivProjects = projectData.filter(icon => icon.id === 4 || icon.id === 5);
+
   return (
     <div id="projects">
       <div className='projects-container'>
@@ -47,22 +52,62 @@ const Projects = () => {
           <p className='title-component'>Projects</p>
         </div>
         <div className='project-icons'>
-          {project.map(icon => (
-            <div key={icon.id}>
-              <a href={icon.href}>
-                <img
-                  src={icon.src}
-                  height={icon.id === 3 ? 900 : 400}
-                  width={icon.id === 3 ? 600 : 400}
-                  alt={icon.alt}
-                />
-              </a>
-              <div className='icon-text'>
-                <p className='icon-title'>{icon.alt}</p>
-                <p className='icon-para'>{icon.text}</p>
-              </div>
+          <div className='horizontal-container'>
+            <div className='vertical-container'>
+              {firstDivProjects.map(icon => (
+                <div key={icon.id} className='vertical-project'>
+                  <a href={icon.href}>
+                    <img
+                      src={icon.src}
+                      height={500}
+                      width={450}
+                      alt={icon.alt}
+                    />
+                  </a>
+                  <div className='icon-text'>
+                    <p className='icon-title'>{icon.alt}</p>
+                    <p className='icon-para'>{icon.text}</p>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
+            <div className='large-project'>
+              {secondDivProjects.map(icon => (
+                <div key={icon.id}>
+                  <a href={icon.href}>
+                    <img
+                      src={icon.src}
+                      height={950}
+                      width={650}
+                      alt={icon.alt}
+                    />
+                  </a>
+                  <div className='icon-text'>
+                    <p className='icon-title'>{icon.alt}</p>
+                    <p className='icon-para'>{icon.text}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className='vertical-container'>
+              {thirdDivProjects.map(icon => (
+                <div key={icon.id} className='vertical-project'>
+                  <a href={icon.href}>
+                    <img
+                      src={icon.src}
+                      height={500}
+                      width={450}
+                      alt={icon.alt}
+                    />
+                  </a>
+                  <div className='icon-text'>
+                    <p className='icon-title'>{icon.alt}</p>
+                    <p className='icon-para'>{icon.text}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

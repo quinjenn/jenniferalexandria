@@ -55,8 +55,8 @@ const Contact = () => {
             </a>
           ))}
         </div>
-        <p>© copyright 2023 jenniferalexandria</p>
       </div>
+      <p id="copyright">© copyright 2023 jenniferalexandria</p>
     </div>
   );
 };
