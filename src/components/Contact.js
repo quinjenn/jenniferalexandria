@@ -4,35 +4,35 @@ import "./Contact.css";
 const icons = [
   {
     id: 1,
-    src: '/icons/gmail-icon.jpg',
+    src: '/icons/email2.png',
     alt: 'Gmail',
     href: 'mailto:quintal.jenn@gmail.com?subject=Website%20Form:&body=Hi%20Jenn%2C',
     text: '',
   },
   {
     id: 2,
-    src: '/icons/linkedin-icon.png',
+    src: '/icons/linkedin2.png',
     alt: 'LinkedIn',
     href: 'https://www.linkedin.com/in/jennifer-alexandria-quintal-419b527a/',
     text: '',
   },
   {
     id: 3,
-    src: '/icons/github.png',
+    src: '/icons/github3.png',
     alt: 'GitHub',
     href: 'https://github.com/quinjenn',
     text: '',
   },
   {
     id: 4,
-    src: '/icons/insta-icon.jpeg',
+    src: '/icons/insta2.png',
     alt: 'Instagram',
     href: 'https://www.instagram.com/_jenniferalexandria/',
     text: '',
   },
   {
     id: 5,
-    src: '/icons/medium-icon.png',
+    src: '/icons/medium2.png',
     alt: 'Medium',
     href: 'https://medium.com/@quintal.jenn',
     text: '',
@@ -50,7 +50,7 @@ const Contact = () => {
               href={icon.href}
             >
               <img
-                src={icon.src} height={50} alt='icons'
+                src={icon.src} height={75} alt='icons' className="icon-image"
               />
             </a>
           ))}

@@ -25,3 +25,8 @@
   font-weight: normal;
 }
 
+/* @media (max-width: 2000px) {
+  .nav-links-container {
+    width: 100%;
+  }
+} */
