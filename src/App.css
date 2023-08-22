@@ -1,6 +1,6 @@
 .App {
   /* text-align: center; */
-  font-family: VogueAvantGarde, helvetica, sans-serif;
+  /* font-family: adobe-garamond-pro, serif; */
 }
 
 .App-logo {
@@ -42,6 +42,9 @@
   position: relative;
   padding: 10px 0;
   width: 80%;
+  font-size: 25px;
+  font-weight: 200;
+  text-align: left;
 }
 
 .title-container {
@@ -67,4 +70,12 @@
 .title-component::after {
   bottom: 0;
   border-top: none;
+}
+
+@font-face {
+  font-family: "adobe-garamond-pro";
+  src: url("https://use.typekit.net/whh7phj.css");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
 }

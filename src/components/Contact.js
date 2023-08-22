@@ -42,7 +42,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className='contact-container'>
-        <h3>jenniferalexandria</h3>
+        <p className='brand-3'>jenniferalexandria</p>
         <div className='contact-icons'>
           {icons.map(icon => (
             <a

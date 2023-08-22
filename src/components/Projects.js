@@ -49,7 +49,7 @@ const Projects = () => {
     <div id="projects">
       <div className='projects-container'>
         <div className="title-container">
-          <p className='title-component'>Projects</p>
+          <p className='title-component'>PROJECTS</p>
         </div>
         <div className='project-icons'>
           <div className='horizontal-container'>

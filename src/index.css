@@ -6,3 +6,11 @@ body {
 code {
   font-family: VogueAvantGarde, helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: "adobe-garamond-pro";
+  src: url("https://use.typekit.net/whh7phj.css");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
