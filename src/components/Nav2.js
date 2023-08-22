@@ -21,18 +21,6 @@ const Nav2 = () => {
         <li>
           <Link
             activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            PROJECTS
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
             to="skills"
             spy={true}
             smooth={true}
@@ -40,6 +28,18 @@ const Nav2 = () => {
             duration={500}
           >
             SKILLS
+          </Link>
+        </li>
+        <li>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            PROJECTS
           </Link>
         </li>
         <li>
