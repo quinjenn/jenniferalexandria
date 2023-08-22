@@ -5,6 +5,7 @@
 
 .projects-container {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .title-container {
@@ -35,7 +36,6 @@
 .vertical-project {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   padding: 20px 5px 5px 5px;
 }
 
@@ -59,4 +59,10 @@
 
 .icon-para {
   font-size: 14px;
+}
+
+@media (max-width: 1300px) {
+  .projects {
+    width: 80%;
+  }
 }
