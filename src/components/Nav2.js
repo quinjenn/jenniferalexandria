@@ -58,10 +58,8 @@ const Nav2 = () => {
           </Link>
         </li>
       </ul>
-    </div >
+    </div>
   );
 };
 
 export default Nav2;
-
-
