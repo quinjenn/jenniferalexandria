@@ -8,9 +8,24 @@
   justify-content: space-evenly;
   width: 80%;
   margin: 0 auto;
+  height: 600px;
 }
 
 .skills-icons {
-  height: 400px;
   width: 200px;
+}
+
+.skills-icon-background {
+  background-color: #eeeae3;
+}
+
+.skills-icons1,
+.skills-icons2,
+.skills-icons3,
+.skills-icons4,
+.skills-icons5 {
+  padding-top: 75px;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
 }
