@@ -13,7 +13,7 @@ const Nav2 = () => {
             spy={true}
             smooth={true}
             offset={-70}
-            duration={500}
+            duration={500}    
           >
             ABOUT
           </Link>
