@@ -254,24 +254,6 @@ body {
   transform: translate3d(0, -30px, 0);
 }
 
-/* .blury-card h2,
-.blury-card p {
-  text-align: center;
-  top: 50%;
-  transform: translatey(-50%);
-  margin: 0;
-  z-index: 3;
-} */
-
-/* .blury-card p {
-  transform: translatey(30px);
-  letter-spacing: 3px;
-} */
-
-/* .blury-card span {
-  font-size: 24px;
-} */
-
 .blury-card:before {
   content: "";
   position: absolute;
@@ -357,28 +339,6 @@ body {
   width: calc(100% - 80px);
   height: calc(100% - 80px);
 }
-
-/* .zoom-out h2 {
-  font-size: 12px;
-  font-weight: 300;
-  margin-left: 10px;
-  letter-spacing: 1px;
-} */
-
-/* .zoom-out span {
-  font-size: 12px;
-  font-weight: 500;
-} */
-
-/* .zoom-out p {
-  max-width: 120px;
-  text-align: right;
-  margin: 10px;
-  right: 0;
-  top: 0;
-  font-size: 12px;
-  color: black;
-} */
 
 .zoom-out h2 {
   bottom: 50%;
