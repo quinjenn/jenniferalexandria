@@ -32,3 +32,57 @@
   font-size: 35px;
   margin-bottom: 3px;
 }
+
+.icon-image {
+  height: 75px; 
+}
+
+@media screen and (max-width: 880px) {
+  #contact {
+    width: 100%;
+  }
+  #copyright {
+    width: 100%;
+  }
+  .contact-container {
+    height: 50vh;
+    align-self: left;
+    left: 0;
+    padding-left: 20px;
+  }
+  .brand-3 {
+    max-width: 80vh;
+    align-self: left;
+    left: 0;
+  }
+  .icon-image {
+    max-height: 50px;
+    align-self: left;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  #contact {
+    width: 100%;
+  }
+  #copyright {
+    width: 100%;
+  }
+  .contact-container {
+    height: 50vh;
+    align-self: left;
+    left: 0;
+    padding-left: 10px;
+  }
+  .brand-3 {
+    max-width: 80vh;
+    align-self: left;
+    left: 0;
+  }
+  .icon-image {
+    max-height: 30px;
+    align-self: left;
+    left: 0;
+  }
+}

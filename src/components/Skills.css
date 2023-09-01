@@ -32,3 +32,45 @@
 .skills-title {
   text-transform: uppercase;
 }
+
+.icon {
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 880px) {
+  #skills {
+    width: 100%;
+  }
+  .skills-container,
+  .skills-icon-background,
+  .skills-icon-container {
+    height: 50%;
+    width: 100%;
+  }
+  .icon {
+    width: 20%;
+  }
+  .skills-title {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  #skills {
+    width: 100%;
+  }
+  .skills-container,
+  .skills-icon-background,
+  .skills-icon-container {
+    height: 50%;
+    width: 100%;
+  }
+  .icon {
+    width: 20%;
+  }
+  .skills-title {
+    font-size: 70%;
+  }
+}

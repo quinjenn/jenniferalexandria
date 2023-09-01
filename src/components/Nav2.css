@@ -33,3 +33,18 @@
   color: inherit;
   font-weight: normal;
 }
+
+@media screen and (max-width: 880px) {
+  .nav-titles {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .nav-titles {
+    font-size: 70%;
+  }
+  .nav-links-container {
+    padding-right: 0px;
+  }
+}

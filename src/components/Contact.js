@@ -52,7 +52,7 @@ const Contact = () => {
               rel="noreferrer"
             >
               <img
-                src={icon.src} height={75} alt='icons' className="icon-image"
+                src={icon.src} alt='icons' className="icon-image"
               />
             </a>
           ))}
