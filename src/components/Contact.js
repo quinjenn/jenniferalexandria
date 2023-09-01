@@ -48,6 +48,8 @@ const Contact = () => {
             <a
               key={icon.id}
               href={icon.href}
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={icon.src} height={75} alt='icons' className="icon-image"
