@@ -3,7 +3,7 @@ import "./Projects2.css";
 
 const Projects2 = () => {
   return (
-    <div id="projects2">
+    <div id="projects">
       <div className='projects-container'>
         <div className="title-container">
           <p className='title-component'>PROJECTS</p>
@@ -17,10 +17,23 @@ const Projects2 = () => {
             <div class="wrapper">
               <div class="box vintage">
                 <a href="https://github.com/quinjenn/route-roamer" target="_blank">
-                  <img src="/projects/rr-3.png" alt="Route Roamer" />
+                  <img src="/projects/rr-6.png" alt="Route Roamer" />
                 </a>
                 {/* <h2>Route Roamer</h2> */}
                 {/* <p>an application where users can create an AI-generated, personalized travel itinerary for anywhere around the world and suggested activities will appear on Google Maps</p> */}
+              </div>
+            </div>
+
+
+
+            <div class="wrapper">
+              <div class="box zoom-out">
+                <a href="https://github.com/quinjenn/jungle-rails" target="_blank">
+                  <img src="/projects/Jungle-1.png" alt="Jungle" />
+                </a>
+                <div class="frame"></div>
+                {/* <h2>Jungle <span>NOIR</span></h2> */}
+                {/* <p>a mini e-commerce application where users can view and purchase products in a secure environment using the Stripe API</p> */}
               </div>
             </div>
 
@@ -61,16 +74,8 @@ const Projects2 = () => {
 
 
 
-            <div class="wrapper">
-              <div class="box zoom-out">
-                <a href="https://github.com/quinjenn/jungle-rails" target="_blank">
-                  <img src="/projects/Jungle-1.png" alt="Jungle" />
-                </a>
-                <div class="frame"></div>
-                {/* <h2>Jungle <span>NOIR</span></h2> */}
-                {/* <p>a mini e-commerce application where users can view and purchase products in a secure environment using the Stripe API</p> */}
-              </div>
-            </div>
+
+
           </div>
         </div>
 
