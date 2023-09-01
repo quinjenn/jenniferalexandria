@@ -11,7 +11,7 @@ const Skills = () => {
         <div className="skills-icon-background">
           <div className="skills-icon-container">
             <div className="skills-icons1" align="center">
-              LANGUAGES:
+              <p className="skills-title">Languages:</p>
               <br />
               <br />
               <img src="/skills/js.png" width={40} alt="js" />
@@ -21,6 +21,9 @@ const Skills = () => {
               <img src="/skills/ruby2.png" width={40} alt="ruby" />
             </div>
             <div className="skills-icons2" align="center">
+              <p className="skills-title">Frameworks & Libraries:</p>
+              <br />
+              <br />
               <img src="/skills/react2.png" width={40} alt="react" />
               <img src="/skills/next.png" width={40} alt="next" />
               <br />
@@ -35,12 +38,9 @@ const Skills = () => {
               <br />
               <img src="/skills/bootstrap.png" width={40} alt="bootstrap" />
               <img src="/skills/jquery.png" width={40} alt="jquery" />
-              <br />
-              <br />
-              Frameworks & Libraries:
             </div>
             <div className="skills-icons3" align="center">
-              Systems & Databases
+              <p className="skills-title">Systems & Databases</p>
               <br />
               <br />
               <img src="/skills/postgresql2.png" width={40} alt="postgresql" />
@@ -50,6 +50,7 @@ const Skills = () => {
               <br />
             </div>
             <div className="skills-icons4" align="center">
+              <p className="skills-title">Testing</p>
               <br />
               <br />
               <img src="/skills/jest2.png" width={40} alt="jest" />
@@ -62,18 +63,17 @@ const Skills = () => {
               <img src="/skills/chai.png" width={40} alt="chai" />
               <br />
               <br />
-              Testing
             </div>
             <div className="skills-icons5" align="center">
-              Cloud Deployment
+              <p className="skills-title">Cloud Deployment</p>
               <br />
               <br />
               <img src="/skills/vercel.svg" width={45} alt="vercel" />
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 };
 

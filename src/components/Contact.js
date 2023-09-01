@@ -4,14 +4,14 @@ import "./Contact.css";
 const icons = [
   {
     id: 1,
-    src: '/icons/email2.png',
+    src: '/icons/email3.png',
     alt: 'Gmail',
     href: 'mailto:quintal.jenn@gmail.com?subject=Website%20Form:&body=Hi%20Jenn%2C',
     text: '',
   },
   {
     id: 2,
-    src: '/icons/linkedin2.png',
+    src: '/icons/linkedin3.png',
     alt: 'LinkedIn',
     href: 'https://www.linkedin.com/in/jennifer-alexandria-quintal-419b527a/',
     text: '',
@@ -25,7 +25,7 @@ const icons = [
   },
   {
     id: 4,
-    src: '/icons/insta2.png',
+    src: '/icons/insta3.png',
     alt: 'Instagram',
     href: 'https://www.instagram.com/_jenniferalexandria/',
     text: '',

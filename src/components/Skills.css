@@ -24,8 +24,9 @@
 .skills-icons3,
 .skills-icons4,
 .skills-icons5 {
-  padding-top: 75px;
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column; */
+  padding-top: 40px;
+}
+
+.skills-title {
+  text-transform: uppercase;
 }

@@ -2,3 +2,8 @@
   text-align: center;
   margin-top: 60px;
 }
+
+.bio-image {
+  border-radius: 4px;
+  border-color: transparent;
+}
