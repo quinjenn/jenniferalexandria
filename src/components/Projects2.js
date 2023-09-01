@@ -17,9 +17,9 @@ const Projects2 = () => {
             <div class="wrapper">
               <div class="box vintage">
                 <a href="https://github.com/quinjenn/route-roamer" target="_blank">
-                  <img src="/projects/rr-5.png" alt="Route Roamer" />
+                  <img src="/projects/rr-3.png" alt="Route Roamer" />
                 </a>
-                <h2>Route Roamer</h2>
+                {/* <h2>Route Roamer</h2> */}
                 {/* <p>an application where users can create an AI-generated, personalized travel itinerary for anywhere around the world and suggested activities will appear on Google Maps</p> */}
               </div>
             </div>
@@ -28,7 +28,7 @@ const Projects2 = () => {
             <div class="wrapper">
               <div class="box postcard">
                 <a href="https://github.com/quinjenn/scheduler" target="_blank">
-                  <img src="/projects/scheduler-3.png" alt="Scheduler" />
+                  <img src="/projects/scheduler-2.png" alt="Scheduler" />
                 </a>
                 {/* <h2>Scheduler<p class="hide"> <p>React based application to book interview appointments between students and mentors</p>
               </p></h2> */}
@@ -39,7 +39,7 @@ const Projects2 = () => {
             <div class="wrapper">
               <div class="box zoom-in">
                 <a href="https://github.com/quinjenn/tweeter" target="_blank">
-                  <img src="/projects/Tweeter-2.png" alt="Tweeter" />
+                  <img src="/projects/Tweeter-1.png" alt="Tweeter" />
                 </a>
                 {/* <h2>Tweeter</h2>
               <p>an application where users can create an AI-generated, personalized travel itinerary for anywhere around the world and suggested activities will appear on Google Maps</p> */}
