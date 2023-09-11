@@ -36,15 +36,18 @@
 
 @media screen and (max-width: 880px) {
   .nav-titles {
-    font-size: 70%;
+    font-size: 50%;
+  }
+  .wrapper {
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 520px) {
   .nav-titles {
-    font-size: 70%;
+    width: 50%;
   }
-  .nav-links-container {
-    padding-right: 0px;
+  .wrapper {
+    width: 50%;
   }
 }

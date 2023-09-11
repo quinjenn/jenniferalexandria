@@ -379,6 +379,6 @@ body {
 
 @media screen and (max-width: 520px) {
   .wrapper {
-    width: 100%;
+    width: 50%;
   }
 }
