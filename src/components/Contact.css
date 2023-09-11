@@ -19,7 +19,7 @@
 
 #contact {
   background-color: black;
-  color: white;
+  color: #575757;
 }
 
 .icon-image {
@@ -34,7 +34,7 @@
 }
 
 .icon-image {
-  height: 75px; 
+  height: 75px;
 }
 
 @media screen and (max-width: 880px) {
