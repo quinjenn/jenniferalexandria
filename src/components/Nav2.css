@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 880px) {
   .nav-titles {
-    font-size: 50%;
+    font-size: 100%;
   }
   .wrapper {
     width: 50%;
@@ -46,6 +46,7 @@
 @media screen and (max-width: 520px) {
   .nav-titles {
     width: 80%;
+    font-size: 50%;
   }
   .wrapper {
     width: 30%;
