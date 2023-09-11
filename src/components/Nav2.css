@@ -45,9 +45,9 @@
 
 @media screen and (max-width: 520px) {
   .nav-titles {
-    width: 50%;
+    width: 80%;
   }
   .wrapper {
-    width: 50%;
+    width: 30%;
   }
 }

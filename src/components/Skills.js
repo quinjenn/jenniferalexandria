@@ -11,7 +11,7 @@ const Skills = () => {
         <div className="skills-icon-background">
           <div className="skills-icon-container">
             <div className="skills-icons1" align="center">
-              <p className="skills-title">Languages:</p>
+              <div className="skills-title">Languages</div>
               <br />
               <br />
               <img src="/skills/js.png" alt="js" className="icon" />
@@ -21,7 +21,7 @@ const Skills = () => {
               <img src="/skills/ruby2.png" alt="ruby" className="icon" />
             </div>
             <div className="skills-icons2" align="center">
-              <p className="skills-title">Frameworks & Libraries:</p>
+              <div className="skills-title">Frameworks & Libraries</div>
               <br />
               <br />
               <img src="/skills/react2.png" alt="react" className="icon" />
@@ -40,7 +40,7 @@ const Skills = () => {
               <img src="/skills/jquery.png" alt="jquery" className="icon" />
             </div>
             <div className="skills-icons3" align="center">
-              <p className="skills-title">Systems & Databases</p>
+              <div className="skills-title">Systems & Databases</div>
               <br />
               <br />
               <img src="/skills/postgresql2.png" alt="postgresql" className="icon" />
@@ -50,7 +50,7 @@ const Skills = () => {
               <br />
             </div>
             <div className="skills-icons4" align="center">
-              <p className="skills-title">Testing</p>
+              <div className="skills-title">Testing</div>
               <br />
               <br />
               <img src="/skills/jest2.png" alt="jest" className="icon" />
@@ -65,7 +65,7 @@ const Skills = () => {
               <br />
             </div>
             <div className="skills-icons5" align="center">
-              <p className="skills-title">Cloud Deployment</p>
+              <div className="skills-title">Cloud Deployment</div>
               <br />
               <br />
               <img src="/skills/vercel.svg" alt="vercel" className="icon" />

@@ -69,6 +69,19 @@
     flex-direction: column;
   }
   .icon {
-    height: 20%;
+    height: 10%;
+  }
+  .skills-icons1,
+  .skills-icons2,
+  .skills-icons3,
+  .skills-icons4,
+  .skills-icons5 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .skills-title {
+    margin-right: 10px;
   }
 }
