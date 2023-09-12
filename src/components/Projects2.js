@@ -34,7 +34,7 @@ const Projects2 = () => {
                 <a href="https://github.com/quinjenn/scheduler" target="_blank" rel="noreferrer">
                   <img src="/projects/scheduler-2.png" alt="Scheduler" />
                 </a>
-                <h2><p class="hide"> <p>React based application to book interview appointments between students and mentors</p>
+                <h2><p class="hide"> <p>an application to book interview appointments between students and mentors</p>
                 </p></h2>
               </div>
             </div>

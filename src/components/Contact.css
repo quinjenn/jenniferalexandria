@@ -68,9 +68,11 @@
   }
   #copyright {
     width: 100%;
+    font-size: 60%;
+    padding-top: 50px;
   }
   .contact-container {
-    height: 50vh;
+    height: 40vh;
     align-self: left;
     left: 0;
     padding-left: 10px;
@@ -81,7 +83,7 @@
     left: 0;
   }
   .icon-image {
-    max-height: 30px;
+    max-height: 40px;
     align-self: left;
     left: 0;
   }
