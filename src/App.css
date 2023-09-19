@@ -46,6 +46,13 @@
 .title-container {
   display: flex;
   justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.title-container-1 {
+  display: flex;
+  justify-content: center;
 }
 
 .title-component::before,
@@ -74,4 +81,11 @@
   font-display: auto;
   font-style: normal;
   font-weight: 400;
+}
+
+@media screen and (max-width: 520px) {
+  .title-container {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
 }

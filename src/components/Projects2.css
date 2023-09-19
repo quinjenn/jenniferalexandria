@@ -370,6 +370,10 @@ body {
   filter: contrast(70%);
 }
 
+#projects {
+  padding-bottom: 20px;
+}
+
 @media screen and (max-width: 880px) {
   .wrapper {
     width: 50%;
