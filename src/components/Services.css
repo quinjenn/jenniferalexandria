@@ -1,10 +1,8 @@
 .services-container {
-  /* width: 100%; */
   height: 100%;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  gap: 30px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -20,26 +18,11 @@
   padding: 20px 60px;
   font-size: 0.8em;
   line-height: 1.5;
+  height: 100%;
+  width: 500px;
+  border-radius: 4px;
 }
 
 .services-text-container {
   padding: 10px;
 }
-
-.services-button-container {
-  padding: 30px;
-}
-
-/* .button-3 {
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-  color: #000000;
-  padding: 15px 50px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.button-3:hover {
-  background-color: #000000;
-  color: #ffffff;
-} */
