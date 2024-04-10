@@ -9,80 +9,113 @@ const Skills = () => {
           <p className="title-component">SKILLS</p>
         </div>
         <div className="skills-icon-background">
-          <div className="skills-icon-container">
 
-            <div className="skills-icons1" align="center">
-              <div className="skills-title">Languages</div>
-              <div className="skills-icon-wrapper">
-                <img src="/skills/js.png" alt="js" className="icon" />
-                <img src="/skills/html.png" alt="html" className="icon" />
-                <br />
-                <img src="/skills/css.png" alt="css" className="icon" />
-                <img src="/skills/ruby2.png" alt="ruby" className="icon" />
-              </div>
-            </div>
-
-
-            <div className="skills-icons2" align="center">
-              <div className="skills-title">Frameworks & Libraries</div>
-              <div className="skills-icon-wrapper">
-                <img src="/skills/react2.png" alt="react" className="icon" />
-                <img src="/skills/next.png" alt="next" className="icon" />
-                <br />
-                <img src="/skills/node2.png" alt="node" className="icon" />
-                <img src="/skills/axios.png" alt="axios" className="icon" />
-                <br />
-                <img src="/skills/rails.png" alt="rails" className="icon" />
-                <img src="/skills/express.png" alt="express" className="icon" />
-                <br />
-                <img src="/skills/ejs.png" alt="ejs" className="icon" />
-                <img src="/skills/sass2.png" alt="sass" className="icon" />
-                <br />
-                <img src="/skills/bootstrap.png" alt="bootstrap" className="icon" />
-                <img src="/skills/jquery.png" alt="jquery" className="icon" />
-              </div>
-            </div>
-
-
-            <div className="skills-icons3" align="center">
-              <div className="skills-title">Systems & Databases</div>
-              <div className="skills-icon-wrapper">
-                <img src="/skills/postgresql2.png" alt="postgresql" className="icon" />
-                <img src="/skills/git.png" alt="git" className="icon" />
-                <br />
-                <img src="/skills/sql.png" alt="sql" className="icon" />
-                <br />
-              </div>
-            </div>
-
-
-            <div className="skills-icons4" align="center">
-              <div className="skills-title">Testing</div>
-              <div className="skills-icon-wrapper">
-                <img src="/skills/jest2.png" alt="jest" className="icon" />
-                <img src="/skills/storybook.png" alt="storybook" className="icon" />
-                <br />
-                <img src="/skills/cypress.png" alt="cypress" className="icon" />
-                <img src="/skills/rspec.png" alt="rspec" className="icon" />
-                <br />
-                <img src="/skills/mocha.png" alt="mocha" className="icon" />
-                <img src="/skills/chai.png" alt="chai" className="icon" />
-                <br />
-              </div>
-            </div>
-
-
-            <div className="skills-icons5" align="center">
-              <div className="skills-title">Cloud Deployment</div>
-              <div className="skills-icon-wrapper">
-                <img src="/skills/vercel.svg" alt="vercel" className="icon" />
-              </div>
-            </div>
-
-
-          </div>
         </div>
       </div >
+
+      <div class='reflection-container'>
+        <a class='reflection-grid-cell reflection-grid-cell-1' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-2' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-3' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-4' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-5' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-6' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-7' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-8' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-9' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-10' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-11' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-12' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-13' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-14' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-15' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-16' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-17' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-18' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-19' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-20' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-21' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-22' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-23' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-24' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-25' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-26' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-27' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-28' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-29' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-30' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-31' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-32' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-33' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-34' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-35' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-36' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-37' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-38' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-39' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-40' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-41' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-42' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-43' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-44' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-45' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-46' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-47' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-48' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-49' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-50' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-51' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-52' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-53' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-54' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-55' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-56' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-57' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-58' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-59' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-60' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-61' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-62' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-63' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-64' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-65' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-66' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-67' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-68' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-69' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-70' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-71' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-72' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-73' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-74' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-75' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-76' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-77' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-78' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-79' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-80' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-81' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-82' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-83' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-84' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-85' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-86' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-87' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-88' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-89' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-90' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-91' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-92' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-93' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-94' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-95' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-96' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-97' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-98' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-99' href='#'></a>
+        <a class='reflection-grid-cell reflection-grid-cell-100' href='#'></a>
+        <div class='reflection-content'></div>
+      </div>
     </div >
   );
 };
