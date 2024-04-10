@@ -2,7 +2,7 @@ import React from 'react';
 import './Services.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { CustomRightArrow, CustomLeftArrow } from './CustomArrows';
+// import { CustomRightArrow, CustomLeftArrow } from './CustomArrows';
 
 
 const Services = () => {
