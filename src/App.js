@@ -6,6 +6,8 @@ import Nav2 from './components/Nav2';
 import Landing from './components/Landing';
 import Skills from './components/Skills';
 import Services from './components/Services';
+import Services2 from './components/Services2';
+
 
 
 function App() {
@@ -16,8 +18,7 @@ function App() {
       {/* <About /> */}
       <Landing />
       <Services />
-      {/* <Skills /> */}
-      {/* <Projects2 /> */}
+      {/* <Services2 /> */}
       <About />
       <Contact />
     </div>
