@@ -16,8 +16,8 @@ const Nav = () => {
     };
   }, []);
 
-  const brand1Size = Math.max(40 - scrollY / 10, 30);
-  const brand2Size = Math.max(20 - scrollY / 20, 15);
+  const brand1Size = Math.max(40 - scrollY / 10, 22);
+  const brand2Size = Math.max(20 - scrollY / 20, 11);
 
   return (
     <div className="nav-heading" style={{ position: "fixed", top: 0, width: "100%", background: "#fff", zIndex: 100 }}>

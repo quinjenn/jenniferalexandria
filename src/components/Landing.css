@@ -1,0 +1,34 @@
+.landing-title-component {
+  padding-top: 25px;
+  width: 100%;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: Didot, serif;
+  margin-bottom: 0;
+}
+.landing-title-component2 {
+  width: 100%;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: Didot, serif;
+  margin-top: 0;
+  margin-bottom: 44px;
+}
+
+.landing-subtitle-component {
+  width: 50%;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: Didot, serif;
+  margin-top: 0;
+  margin: auto;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}

@@ -14,3 +14,31 @@ code {
   font-style: normal;
   font-weight: 400;
 }
+
+@font-face {
+  font-family: "Didot";
+  src: url("./fonts/Didot.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DidotBold";
+  src: url("./fonts/DidotBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DidotItalic";
+  src: url("./fonts/DidotItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DidotTitle";
+  src: url("./fonts/DidotTitle.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
