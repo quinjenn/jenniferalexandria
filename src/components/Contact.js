@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Contact.css";
+import ContactForm from './ContactForm';
 
 const icons = [
   {
@@ -42,20 +43,25 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className='contact-container'>
-        <p className='brand-3'>jenniferalexandria</p>
-        <div className='contact-icons'>
-          {icons.map(icon => (
-            <a
-              key={icon.id}
-              href={icon.href}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={icon.src} alt='icons' className="icon-image"
-              />
-            </a>
-          ))}
+        <div>
+          <p className='brand-3'>jenniferalexandria</p>
+          <div className='contact-icons'>
+            {icons.map(icon => (
+              <a
+                key={icon.id}
+                href={icon.href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={icon.src} alt='icons' className="icon-image"
+                />
+              </a>
+            ))}
+          </div>
+        </div>
+        <div>
+          <ContactForm />
         </div>
       </div>
       <p id="copyright">© copyright 2023 jenniferalexandria</p>
