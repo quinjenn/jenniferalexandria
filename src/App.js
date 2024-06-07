@@ -1,5 +1,5 @@
 import './App.css';
-import About from './components/About';
+import About2 from './components/About2';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
 import Nav2 from './components/Nav2';
@@ -19,7 +19,7 @@ function App() {
       <Landing />
       <Services />
       {/* <Services2 /> */}
-      <About />
+      <About2 />
       <Contact />
     </div>
   );
