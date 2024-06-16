@@ -55,3 +55,21 @@
   padding-top: 5px;
   bottom: 5px;
 }
+
+@media screen and (max-width: 880px) {
+  .services-container-one,
+  .services-container-two,
+  .services-container-three {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .services-container-one,
+  .services-container-two,
+  .services-container-three {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

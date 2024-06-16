@@ -51,6 +51,9 @@
   .bio-text-container {
     width: 90%;
   }
+  .about-me-component {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 880px) {
@@ -62,5 +65,8 @@
   }
   .bio-text-container {
     width: 90%;
+  }
+  .about-me-component {
+    flex-direction: column;
   }
 }

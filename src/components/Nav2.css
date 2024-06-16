@@ -6,6 +6,7 @@
   border-bottom: 1px solid #ccc;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 120px;
+  width: 100%;
 }
 
 .nav-titles {
@@ -20,12 +21,14 @@
   font-style: light;
   font-stretch: extra-expanded;
   letter-spacing: 1px;
+  width: 100%;
 }
 
 .nav-titles li {
   display: inline;
   margin-left: 30px;
   margin: 0 30px;
+  width: 100%;
 }
 
 .resume-link {
@@ -39,17 +42,17 @@
     font-size: 100%;
   }
   .wrapper {
-    width: 50%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 520px) {
   .nav-titles {
-    width: 80%;
+    width: 100%;
     font-size: 50%;
     padding-right: 5%;
   }
   .wrapper {
-    width: 30%;
+    width: 100%;
   }
 }

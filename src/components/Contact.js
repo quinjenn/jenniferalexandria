@@ -60,9 +60,9 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <div>
+        {/* <div>
           <ContactForm />
-        </div>
+        </div> */}
       </div>
       <p id="copyright">© copyright 2023 jenniferalexandria</p>
     </div>

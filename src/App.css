@@ -33,6 +33,21 @@
   }
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .title-component {
   position: relative;
   padding: 10px 0;

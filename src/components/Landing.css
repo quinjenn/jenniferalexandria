@@ -1,3 +1,7 @@
+.landing-page {
+  margin-bottom: 30px;
+}
+
 .landing-title-component {
   padding-top: 25px;
   width: 100%;
@@ -31,4 +35,24 @@
   display: flex;
   flex-direction: column;
   height: 60vh;
+}
+
+@media screen and (max-width: 880px) {
+  .landing-title-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .landing-page {
+    margin-bottom: 300px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .landing-title-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .landing-page {
+    margin-bottom: 300px;
+  }
 }
