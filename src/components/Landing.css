@@ -23,7 +23,7 @@
 
 .landing-subtitle-component {
   width: 50%;
-  font-size: 17px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 1px;
   font-family: Didot, serif;
@@ -34,7 +34,7 @@
 .landing-container {
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  /* height: 60vh; */
 }
 
 @media screen and (max-width: 880px) {
@@ -54,5 +54,18 @@
   }
   .landing-page {
     margin-bottom: 300px;
+  }
+  .landing-title-component {
+    font-size: 25px;
+    width: 100%;
+  }
+  .landing-title-component2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .landing-subtitle-component {
+    width: 80%;
+    font-size: 14px;
   }
 }
