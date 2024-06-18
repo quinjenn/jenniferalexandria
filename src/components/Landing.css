@@ -34,7 +34,13 @@
 .landing-container {
   display: flex;
   flex-direction: column;
-  /* height: 60vh; */
+}
+
+@media (min-width: 992px) {
+  .landing-title-container {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+  }
 }
 
 @media screen and (max-width: 880px) {
