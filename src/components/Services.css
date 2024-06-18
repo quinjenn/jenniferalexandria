@@ -33,6 +33,9 @@
   font-size: 1.5em;
   color: #77613cab;
   font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
 }
 
 .services-header {
