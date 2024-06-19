@@ -1,5 +1,14 @@
 .about-page {
   margin-top: 60px;
+  padding: 0 20px;
+}
+
+.about-me-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /* flex-wrap: wrap; */
 }
 
 .about-me-component {
@@ -7,17 +16,20 @@
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 100px;
-  padding: 0px 200px;
+  padding: 0px 20px;
   gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .bio-image {
   border-radius: 4px;
   border-color: transparent;
+  max-width: 100%;
 }
 
 .bio-text-container {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,35 +50,45 @@
   border: 1px solid #77613cab;
   width: 50%;
 }
-@media screen and (max-width: 520px) {
-  #about {
-    font-size: 80%;
+
+@media screen and (max-width: 880px) {
+  .about-me-component {
+    flex-direction: column;
+    padding: 0 40px;
   }
-  .bio-image {
-    width: 95%;
+  .bio-text-container {
+    width: 100%;
   }
   .bio-text {
     width: 100%;
+    font-size: 16px;
   }
-  .bio-text-container {
-    width: 90%;
+  .bio-line {
+    width: 80%;
   }
-  .about-me-component {
+  .about-me-wrapper {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 520px) {
+  .about-page {
+    margin-top: 30px;
+  }
+  .about-me-component {
+    padding: 0 20px;
+  }
   .bio-image {
-    width: 95%;
+    width: 100%;
   }
   .bio-text {
     width: 100%;
+    font-size: 15px;
   }
-  .bio-text-container {
-    width: 90%;
+  .bio-line {
+    width: 100%;
   }
-  .about-me-component {
+  .about-me-wrapper {
     flex-direction: column;
   }
 }

@@ -8,11 +8,13 @@ const About2 = () => {
         <div className="title-container-1">
           <p className='title-component'>ABOUT ME</p>
         </div>
-        <div className='about-me-component'>
-          <img className="bio-image" src='/images/JQ1.png'
-            alt="jalexandria"
-            width="50%"
-          />
+        <div className='about-me-wrapper'>
+          <div className='about-me-component'>
+            <img className="bio-image" src='/images/JQ1.png'
+              alt="jalexandria"
+              width="100%"
+            />
+          </div>
           <div className='bio-text-container'>
             <p className='bio-line'></p>
             <p className='bio-text'>
