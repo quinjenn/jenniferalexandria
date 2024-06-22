@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import emailjs from 'emailjs-com';
 import './ContactForm.css';
 
-const ContactForm = ({ isOpen, onRequestClose, }) => {
+const ContactForm = ({ isOpen, onRequestClose }) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -12,6 +12,13 @@ const ContactForm = ({ isOpen, onRequestClose, }) => {
 
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+
+  useEffect(() => {
+    if (!isOpen) {
+      setSuccessMessage('');
+      setErrorMessage('');
+    }
+  }, [isOpen]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,16 +31,24 @@ const ContactForm = ({ isOpen, onRequestClose, }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = process.env.SERVICE_ID;
-    const userID = process.env.USER_ID;
+    const serviceID = process.env.REACT_APP_SERVICE_ID;
+    const templateID = process.env.REACT_APP_TEMPLATE_ID;
+    const userID = process.env.REACT_APP_USER_ID;
 
-    emailjs.send(serviceID, formData, userID)
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
+    };
+
+    emailjs.send(serviceID, templateID, templateParams, userID)
       .then((result) => {
         console.log(result.text);
-        alert('Message sent successfully!');
+        setSuccessMessage('Your message was sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
       }, (error) => {
         console.log(error.text);
-        alert('An error occurred, please try again.');
+        setErrorMessage('An error occurred, please try again.');
       });
   };
 

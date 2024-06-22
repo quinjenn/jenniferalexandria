@@ -84,7 +84,7 @@ button[type="submit"]:hover {
 }
 
 .success-message {
-  color: green;
+  color: #77613cab;
   font-weight: bold;
   margin-top: 20px;
 }
