@@ -16,8 +16,9 @@
   padding-top: 100px;
   padding-bottom: 30px;
   margin-bottom: 0px;
-  margin-left: 100px;
-  margin-right: 100px;
+  width: calc(100% - 80px);
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 #contact {

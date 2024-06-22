@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Contact.css";
-import ContactForm from './ContactForm';
 
 const icons = [
   {
