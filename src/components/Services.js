@@ -4,34 +4,6 @@ import './Services.css';
 
 
 const Services = () => {
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-      slidesToSlide: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1
-    }
-  };
-
-  const getDeviceType = () => {
-    if (window.innerWidth >= 1024) {
-      return 'desktop';
-    } else if (window.innerWidth >= 464) {
-      return 'tablet';
-    } else {
-      return 'mobile';
-    }
-  };
-
   const [modalIsOpen01, setModalIsOpen01] = useState(false);
   const [modalIsOpen02, setModalIsOpen02] = useState(false);
   const [modalIsOpen03, setModalIsOpen03] = useState(false);
@@ -123,7 +95,7 @@ const Services = () => {
                 content4="➤ Collection pages"
                 content5="➤ Up to three additional pages (FAQ, sizing, shipping, return policy, about us, ingredients etc.)"
                 content6="➤ Two review sessions for tweaks and edits"
-                content7="❄ Add-ons: edits after launch (hourly)"
+                content7="✽ Add-ons: edits after launch (hourly)"
               />
             </div>
             <div className="services-card">
@@ -140,7 +112,7 @@ const Services = () => {
                 content="➤ 45 minute consultation"
                 content2="➤ One page design: header, footer, and up to six sections"
                 content3="➤ One review session for tweaks and edits"
-                content4="❄ Add-ons: edits after launch (hourly)"
+                content4="✽ Add-ons: edits after launch (hourly)"
               />
             </div>
             <div className="services-card">
@@ -157,7 +129,7 @@ const Services = () => {
                 content="➤ 60 minute consultation"
                 content2="➤ Design and build up to six pages"
                 content3="➤ Two review sessions for tweaks and edits"
-                content4="❄ Add-ons: edits after launch (hourly)"
+                content4="✽ Add-ons: edits after launch (hourly)"
               />
             </div>
 
@@ -181,7 +153,7 @@ const Services = () => {
                 content4="➤ Redesign and build of Collection pages"
                 content5="➤ Redesign and build of up to three additional pages"
                 content6="➤ Two review sessions for tweaks and edits"
-                content7="❄  Add-ons available: creation of more pages, edits after launch (hourly)"
+                content7="✽  Add-ons available: creation of more pages, edits after launch (hourly)"
 
               />
             </div>
@@ -200,7 +172,7 @@ const Services = () => {
                 content="➤ 45 minute consultation"
                 content2="➤ One page redesign: header, footer, and up to six sections"
                 content3="➤ One review session for tweaks and edits"
-                content4="❄ Add-ons: edits after launch (hourly)"
+                content4="✽ Add-ons: edits after launch (hourly)"
               />
             </div>
             <div className="services-card">
@@ -218,7 +190,7 @@ const Services = () => {
                 content="➤ 60 minute consultation"
                 content2="➤ Up to five pages redesign and build"
                 content3="➤ Two review sessions for tweaks and edits"
-                content4="❄ Add-ons: edits after launch (hourly)"
+                content4="✽ Add-ons: edits after launch (hourly)"
               />
             </div>
           </div>
