@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Nav2.css';
 import { Link } from 'react-scroll';
+import ContactForm from './ContactForm';
+
 
 const Nav2 = () => {
+  const [modalIsOpenContact, setModalIsOpenContact] = useState(false);
+
+
+
+  const openModalContact = () => {
+    setModalIsOpenContact(true);
+  };
+
+  const closeModalContact = () => {
+    setModalIsOpenContact(false);
+  };
   return (
     <div className="nav-links-container">
       <div className='wrapper'>
@@ -32,19 +45,13 @@ const Nav2 = () => {
             </Link>
           </li>
           <li>
-            <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
+            <button onClick={openModalContact} className="contact-button">
               CONTACT
-            </Link>
+            </button>
           </li>
         </ul>
       </div>
+      <ContactForm isOpen={modalIsOpenContact} onRequestClose={closeModalContact} />
     </div>
   );
 };
