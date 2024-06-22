@@ -57,7 +57,7 @@
   .landing-title-container {
     flex-direction: column;
     gap: 40px;
-    padding-top: 8vh;
+    padding-top: 10vh;
     padding-bottom: 12vh;
   }
   .landing-page {
